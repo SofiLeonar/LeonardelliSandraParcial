@@ -1,4 +1,3 @@
-public class Rectangle {
 public class Rectangle extends Shape{
     private double width;
     private double length;
@@ -23,5 +22,11 @@ public class Rectangle extends Shape{
 
     public void setLength(double length) {
         this.length = length;
+    }
+    public double getArea(){
+        return 0;
+    }
+    public double getPerimeter(){
+        return  0;
     }
 }
